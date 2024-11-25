@@ -1,34 +1,49 @@
-# using list 
-students = ["Mark",88,"tata",97,"habib",67,"arman",99]
-"""
-for i in range(0,len(students),2):
-    print(students[i],"\t","scored","\t",students[i+1],)
-    """
-#print(students)
-#adding liist items
-    
-#students.append("Reja")
-#students.append("Fail")
-   # print(students[i],"scored",students[i+1])
-#for i in range(0,len(students),2):
-      # print(students[i],"\t","scored","\t",students[i+1],)
-"""for i in range(0,len(students),2):
-          students[-1]=93
-          print(students)
-          """
-          # for adding another list 
-students2=["Rohit",77]
-students.extend(students2)
-#print(students) 
-#for remove elements form list 
-"""
-students.remove("Reja")
-students.remove("Fail")
-print(students) """
-#students.pop()
-#for counting
-     #count = students.count(99)    
-    #print(count)
-    # for the value of the index
-index = students.index(99)
-print(index)
+# APPEND Function
+l=[10,20,30,40,30,31,20]
+l.append(50)
+print('APPEND:',l)
+
+
+# Extend function
+l.extend([60,70])
+print('Extend:',l)
+
+#Insert function
+l.insert(2,110)
+print('Insert:',l)
+
+#Index function
+print('Index:',l.index(110))
+
+# Count function
+print('Count:',l.count(20))
+
+# sort function
+l.sort()
+print('Sort:',l)
+print('Reverse Sorting:',l.reverse())
+print(l)
+print('Reverse Sorting:',l.sort(reverse=True))
+print(l)
+
+#Deletion in a list
+print('Before Poped:',l)
+l.pop()
+print('After Poped:',l)
+
+# Remove Function
+print('Before Removed:',l)
+l.remove(30)
+print('After Removed:',l)
+
+# Del function
+print('Before Deleted:',l)
+del l[1]
+print('After Deleted:',l)
+
+# Matrix
+l1=[0 for i in range (5)]
+print(l1)
+#2D Matrix
+l2=[[0 for i in range(5)] for j in range(5)]
+print(l2)
