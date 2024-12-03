@@ -33,6 +33,7 @@ Here is a list of the Python programs in this repository, along with brief descr
 - **price_calculator.py** - Calculates price based on given inputs and conditions.
 - **print_current_previous_and_sum.py** - Prints current, previous, and their sum in a loop.
 - **tuple.py** - Demonstrates operations on tuples.
+- - **Exception Handling** - Demonstrates operations on Exception handling.
 
 ## Usage
 
